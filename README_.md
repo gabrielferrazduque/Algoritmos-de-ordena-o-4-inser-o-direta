@@ -51,6 +51,7 @@ int binary_search_insert_index(int arr[], int l, int r, int key) {
     }
     return l;
 }
+   
 
 // Versão com busca binária (reduz comparações, mas ainda move elementos)
 void insertion_sort_binary(int arr[], int n) {
