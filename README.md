@@ -6,7 +6,7 @@ include <stdio.h>
 void insertionSort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         int key = arr[i];
-        int j = i - 1;
+          int j = i - 1;
 
         // Move os elementos maiores que a chave para frente
         while (j >= 0 && arr[j] > key) {
@@ -16,6 +16,8 @@ void insertionSort(int arr[], int n) {
         arr[j + 1] = key; // Insere a chave na posição correta
     }
 }
+    
+
 
 // Função para imprimir o vetor
 void printArray(int arr[], int n) {
