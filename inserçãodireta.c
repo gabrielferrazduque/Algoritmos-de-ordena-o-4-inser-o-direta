@@ -45,6 +45,7 @@ int main() {
     
     printf("Vetor ordenado: ");
     imprimirVetor(dados, n);
-    
+ 
+       
     return 0;
 }
